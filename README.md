@@ -1,12 +1,12 @@
-1. Write a C program that accepts two courses' grades and credit hours of those
-courses (floating point values) and calculates your CGPA.
-Test Data :
-Grade in course-1: 3.75
-Credit hour of course-1: 3
-Grade in course-2: 3.50
-Credit hour of course-2: 1.5
-Expected Output:
-CGPA = 3.66
+1. Write a C program that accepts two courses' grades and credit hours of those  
+courses (floating point values) and calculates your CGPA.  
+Test Data :  
+Grade in course-1: 3.75  
+Credit hour of course-1: 3  
+Grade in course-2: 3.50  
+Credit hour of course-2: 1.5  
+Expected Output:  
+CGPA = 3.66  
 
 ```c
 #include<stdio.h>
@@ -31,16 +31,16 @@ int main() {
 
 ---
 
-2. Write a C program that accepts an employee's ID, total worked hours in a
-month and the amount he received per hour. Print the ID and salary (with two
-decimal places) of the employee for a particular month.
-Test Data :
-Input the Employees ID: 0342
-Input the working hrs: 8
-Salary amount/hr: 15000
-Expected Output:
-Employees ID = 0342
-Salary = 120000.00 BDT
+2. Write a C program that accepts an employee's ID, total worked hours in a  
+month and the amount he received per hour. Print the ID and salary (with two  
+decimal places) of the employee for a particular month.  
+Test Data :  
+Input the Employees ID: 0342  
+Input the working hrs: 8  
+Salary amount/hr: 15000  
+Expected Output:  
+Employees ID = 0342  
+Salary = 120000.00 BDT  
 
 ```c
 #include<stdio.h>
