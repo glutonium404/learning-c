@@ -132,3 +132,42 @@ int main() {
     return 0;
 }
 ```
+
+5. Write a C program to print the roots of Bhaskara’s formula from the given three  
+floating numbers.  
+Test Data :  
+Input the first number(a): 25  
+Input the second number(b): 35  
+Input the third number(c): 12  
+Expected Output:  
+Root1 = -0.60000  
+Root2 = -0.80000
+
+```c
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+    double a, b, c;
+
+    printf("Input the first number(a):");
+    scanf("%lf", &a);
+
+    printf("Input the second number(b):");
+    scanf("%lf", &b);
+
+    printf("Input the third number(c):");
+    scanf("%lf", &c);
+
+    double root_discriminant = sqrt(b*b - 4*a*c);
+    double denominator = 2*a;
+
+    double r1 = (-b + root_discriminant)/denominator;
+    double r2 = (-b - root_discriminant)/denominator;
+    
+    printf("Root1 = %.5lf\n", r1);
+    printf("Root2 = %.5lf\n", r2);
+
+    return 0;
+}
+```
