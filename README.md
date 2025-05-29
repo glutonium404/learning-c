@@ -97,15 +97,14 @@ int main() {
 
 ---
 
-5. Write a C program to print the roots of Bhaskara’s formula from the given three  
-floating numbers.  
+4. Write a C program to calculate the distance between two points.  
 Test Data :  
-Input the first number(a): 25  
-Input the second number(b): 35  
-Input the third number(c): 12  
+Input x1: 25  
+Input y1: 15  
+Input x2: 35  
+Input y2: 10  
 Expected Output:  
-Root1 = -0.60000  
-Root2 = -0.80000
+Distance between the said points: 11.1803  
 
 ```c
 #include<stdio.h>
