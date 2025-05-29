@@ -94,3 +94,42 @@ int main() {
     return 0;
 }
 ```
+
+---
+
+5. Write a C program to print the roots of Bhaskara’s formula from the given three  
+floating numbers.  
+Test Data :  
+Input the first number(a): 25  
+Input the second number(b): 35  
+Input the third number(c): 12  
+Expected Output:  
+Root1 = -0.60000  
+Root2 = -0.80000
+
+```c
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+    double  x1, y1, x2, y2;
+
+    printf("Input x1: ");
+    scanf("%lf", &x1);
+
+    printf("Input y1: ");
+    scanf("%lf", &y1);
+
+    printf("Input x2: ");
+    scanf("%lf", &x2);
+
+    printf("Input y2: ");
+    scanf("%lf", &y2);
+
+    double dis = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
+    
+    printf("Distance between the said points:  %.4lf\n", dis);
+
+    return 0;
+}
+```
