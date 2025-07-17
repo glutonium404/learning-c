@@ -96,10 +96,9 @@ int main() {
     printf("Input number of terms: ");
     scanf("%d", &n);
     printf("The odd numbers are:");
-    for(int i=1, c=1; i<=n; i++) {
-        printf("%d ", c);
-        sum += c;
-        c += 2;
+    for(int i=1; i<=n*2; i += 2) {
+        printf("%d ", i);
+        sum += i;
     }
     printf("\nThe Sum of odd Natural Numbers up to %d terms: %d\n", n, sum);
 }
